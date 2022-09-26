@@ -18,6 +18,7 @@
 @import"./layouts/footer";
 @import"./layouts/register-form";
 @import"./layouts/newsletter-form";
+@import"./layouts/portfolio";
 // components styles
 @import"./components/logo";
 @import"./components/social-icon";
@@ -25,4 +26,5 @@
 @import"./components/backdrop";
 @import"./components/modal";
 @import"./components/form-button";
-// @import"";
+@import"./components/card";
+@import"./components/filter";

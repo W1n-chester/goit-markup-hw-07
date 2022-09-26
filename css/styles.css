@@ -710,17 +710,17 @@ img {
 } */
 
 /* Portfolio.Html */
-.portfolio-section {
+/* .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-.filter-list {
+/* .filter {
   display: flex;
   gap: 8px;
   justify-content: center;
 }
-.filter-button {
+.filter__button {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -737,18 +737,18 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-button.active,
-.filter-button:hover,
-.filter-button:focus {
+.filter__button.active,
+.filter__button:hover,
+.filter__button:focus {
   background-color: var(--accent-bg-cl);
   color: var(--ligh-txt-cl);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.portfolio-thumb {
+} */
+/* .card__thumb {
   position: relative;
   overflow: hidden;
 }
-.portfolio-overlay {
+.card__overlay {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -764,45 +764,45 @@ img {
 
   transition-duration: 250ms;
 }
-.portfolio-link:hover .portfolio-overlay {
+.card__link:hover .card__overlay {
   transform: translateY(0);
 }
-.portfolio-link:focus .portfolio-overlay {
+.card__link:focus .card__overlay {
   transform: translateY(0);
 }
-.overleay-text {
+.card__overlay-text {
   color: var(--ligh-txt-cl);
   font-size: 18px;
   line-height: calc(28 / 18);
   letter-spacing: 0.03em;
 }
-.portfolio-link {
+.card__link {
   display: block;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover,
-.portfolio-link:focus {
+.card__link:hover,
+.card__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-list {
+.portfolio__list {
   margin-top: 50px;
   --items: 3;
 }
-.portfolio-card-title {
+.card__title {
   border: 1px solid var(--border-card-cl);
   border-top: none;
   padding: 20px 24px;
 }
 
-.portfolio-subtitle {
+.card__subtitle {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
-.portfolio-text {
+.card__text {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -810,4 +810,4 @@ img {
 
   color: var(--dark-txt-cl);
   margin-top: 4px;
-}
+} */
